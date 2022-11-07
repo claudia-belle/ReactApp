@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://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@github.com/claudia-belle/ReactApp"
+    "deploy": "gh-pages -d build -r https://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@github.com/claudia-belle/ReactApp",
+    "postdeploy": "npm start"
   },
   "eslintConfig": {
     "extends": [
